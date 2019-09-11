@@ -5,7 +5,7 @@ const OperatorButton = (props) => {
   return (
     <>
       {/* Display a button element rendering the data being passed down from the parent container on props */
-      <button className="operatorButtons">{props.operators.value}
+      <button style={{height: "80px", width: "80px"}} className="button btn-darkBlue">{props.operators.value}
       </button>
     }
     </>

@@ -4,7 +4,7 @@ const SpecialButton = (props) => {
   return (
     <>
       {/* Display a button element rendering the data being passed down from the parent container on props */
-      <button className="specialButtons">{props.specials}
+      <button style={{height: "80px", width: "80px"}} className="button btn-darkBlue">{props.specials}
       </button>
     }
     </>

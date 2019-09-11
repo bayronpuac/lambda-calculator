@@ -3,6 +3,7 @@ import "./App.css";
 import Numbers from "./components/ButtonComponents/NumberButtons/Numbers";
 import Operator from "./components/ButtonComponents/OperatorButtons/Operators";
 import Specials from "./components/ButtonComponents/SpecialButtons/Specials";
+import Display from "./components/DisplayComponents/Display";
 
 // STEP 4 - import the button and display components
 // Don't forget to import any extra css/scss files you build into the correct component
@@ -20,15 +21,22 @@ function App() {
 
   return (
     <div className="container">
-      <Logo />
       <div className="App">
-        <div className="left-side">
-          <Specials />
-          <Numbers />
+      <Logo />
+       <Display />
+       <div className="btnContainer">
+         <div className="both">
+           <div className="spcButton">
+             <Specials />
+           </div>
+           <div className="numbers">
+             <Numbers />
+           </div>
+         </div>
+        <div className="operators">
+             < Operator />
         </div>
-        <div className="right-side">
-          <Operator />
-        </div>
+       </div>
       </div>
     </div>
   );
