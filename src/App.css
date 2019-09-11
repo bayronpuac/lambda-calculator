@@ -20,3 +20,49 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+
+  .displayContainer {
+    background: #333;
+    color: white;
+    /* max-width: 300px; */
+    border-radius: 100px;
+    padding-right: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 3rem;
+
+
+}
+
+.btnContainer {
+display: flex;
+/* border: 1px solid black; */
+padding: 0;
+}
+
+.button {
+    border-radius: 50%;
+    padding: 5px;
+    margin: 15px;
+    background: rgb(90, 90, 189);
+    border: 1px solid black;
+    font-size: 3rem 
+}
+.button:nth-child(10) {
+    padding-right: 9px;
+    border-radius: 100px;
+    padding-left: 95px;
+  }
+.operators{
+    /* border: 1px solid orange; */
+    width: 50%;
+    margin-right: 50px;
+}
+
+.both {
+    /* border: 1px solid blue; */
+    margin-left: 50px;
+}
