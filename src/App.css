@@ -47,9 +47,15 @@ padding: 0;
     padding: 5px;
     margin: 15px;
     background: rgb(90, 90, 189);
+    border: 1px solid black;
+
 
 }
-
+.button:nth-child(10) {
+    padding-right: 95px;
+    border-radius: 100px;
+    padding-left: 95px;
+  }
 .operators{
     /* border: 1px solid orange; */
     width: 50%;
